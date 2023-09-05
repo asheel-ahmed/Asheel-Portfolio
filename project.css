@@ -1,0 +1,63 @@
+/* ///////////////
+    Projetcs Section
+////////////////// */
+.projects {
+  padding: 6rem 0;
+  background: rgb(43, 37, 37);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 37, 37, 1) 51%,
+    rgba(226, 51, 20, 1) 51%
+  );
+}
+
+.projects h1 {
+  font-size: 3.4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: #fff;
+  text-decoration: underline #fff;
+}
+
+.projects-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.p-card {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  transition: all 0.4s;
+}
+
+.p-card:hover {
+  transform: scale(1.05);
+  box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.p-card img {
+  width: 100%;
+}
+
+.project-detail {
+  padding: 1.5rem 2rem;
+  background-color: rgb(226, 51, 20);
+  border-top: 5px solid rgba(43, 37, 37, 1);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-top: -0.3rem;
+}
+
+.project-detail h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: rgba(43, 37, 37, 1);
+  margin-bottom: 0.2rem;
+}
+
+.project-detail span {
+  font-size: 1.4rem;
+  color: #fff;
+}

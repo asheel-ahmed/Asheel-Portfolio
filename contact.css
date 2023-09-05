@@ -1,0 +1,127 @@
+/* Contact Page */
+main {
+  background: rgb(43, 37, 37);
+  background: linear-gradient(
+    180deg,
+    rgba(43, 37, 37, 1) 51%,
+    rgba(226, 51, 20, 1) 51%
+  );
+  padding: 6rem 0;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.detail {
+  background-color: rgba(226, 51, 20, 1);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  padding: 3rem 2rem;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem; */
+  border-radius: 2px;
+}
+
+.detail h1 {
+  font-size: 3rem;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.contact-num,
+.email,
+.location {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  background-color: #555;
+  padding: 1rem 2rem;
+}
+
+.detail span {
+  font-size: 2rem;
+  color: rgb(226, 51, 20);
+  font-weight: bolder;
+}
+
+.detail a:link,
+.detail a:visited {
+  color: #fff;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.detail a:hover,
+.detail a:active {
+  color: wheat;
+  text-decoration: underline;
+}
+
+ .detail .social-icon {
+    background-color: #555;
+    padding: 1.5rem 2rem;
+}
+
+form {
+  background-color: rgba(43, 37, 37, 1);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  padding: 4rem 2rem;
+  border-radius: 2px;
+}
+
+form h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+form input,
+form textarea {
+  padding: 1.5rem 2rem;
+  width: 100%;
+  border: none;
+  font-size: 1.6rem;
+  border-radius: 2px;
+  resize: none;
+}
+
+.name {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.f-name,
+.l-name {
+  width: 50%;
+  display: inline;
+}
+
+.f-email {
+  margin-bottom: 2rem;
+}
+
+.submit {
+  background-color: rgb(226, 51, 20);
+  font-size: 1.8rem;
+  color: #fff;
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+
+.submit:hover {
+    color: rgb(226, 51, 20);
+    background-color: #fff;
+    cursor: pointer;
+}
